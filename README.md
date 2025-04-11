@@ -25,5 +25,19 @@ analysis contributes to improving the coverage and quality of HRA construction b
 the reliability and performance of cell type annotation approaches for single cell transcriptomics
 datasets.
 
+<div align="center">
+  <img width = "55%" src="https://github.com/jjoycehu/manuscript/blob/c725ea4890529c90b40517967aa9b52e12660dc1/figures/Figure1.png">
+</div>
+
+**Figure 1: Study Overview**  
+**(A)** Unsupervised and supervised cell type matching between query and reference datasets.   
+**(B)** Cell-based and cluster-based cell type matching methods.   
+**(C)** A sustainable workflow for continued integration of reference atlases requires a strategy that identifies new
+cell types from new datasets to be integrated to the reference atlas while preserving the cell
+type memberships of existing cells, to support the incremental growth of the knowledgebase.
+
+## Directory
+* `tutorials\`: contains all code used in this study documented in tutorial notebooks
+* `figures\`: contains figures for the README file. All figures and supplemental materials from this study is available via [insert link]. 
 
 ## Citation
