@@ -1,4 +1,4 @@
-# Benchmarking Single Cell Transcriptome Matching Methods for Incremental Growth of Reference Atlases
+# Benchmarking Single Cell Transcriptome Matching Methods for Incremental Growth of Cell Atlases
 
 ## Abstract
 **Background:** The advancement of single cell technologies has driven significant progress in
