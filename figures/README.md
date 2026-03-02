@@ -7,3 +7,4 @@ Saved results to plot are in the `data/` folder.
 * `cellref agreenebt okits-R2.ipynb`: Figure 3A,B,C
 * `cellref cell accuracy barplot-R2.ipynb`: Figure 3D
 * `CellRef-HLCA-predictions.ipynb`: Figure 4
+* `bybbkeokit_v2_clean.R`: Figure 5
