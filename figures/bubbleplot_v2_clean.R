@@ -18,33 +18,23 @@ order_cellref <- cellref_order_df$cluster_order
 {
   hlca <- read.csv('azimuth/hlca/azimuth_hlca.csv')
   bubble_prop(hlca, 'hlca_pred', 'hlca_true', order_hlca, order_hlca, 'HLCA Annotations by Proportion Using Azimuth')
-  bubble_plot_score(hlca, 'hlca_pred', 'hlca_true', 'predicted.ann_finest_level.score', order_hlca, order_hlca, 'HLCA with Confidence Score Using Azimuth')
-  bubble_plot_count(hlca, 'predicted.ann_finest_level', 'ann_finest_level', 'predicted.ann_finest_level.score', order_hlca, order_hlca, 'HLCA with Counts and Confidence Score Using Azimuth')
-  bubble_plot_score_v2(hlca, 'hlca_pred', 'hlca_true', 'score', order_hlca, order_hlca, 'HLCA Annotations with Confidence Score Using Azimuth (Ver 2)')
-  
 }
 
 # hlca celltypist
 {hlca <- read.csv('celltypist/hlca/celltypist_hlca.csv')
   bubble_prop(hlca, 'hlca_pred', 'hlca_true', order_hlca, order_hlca, 'HLCA Annotations by Proportion Using Celltypist')
-  bubble_plot_score(hlca, 'majority_voting', 'ann_finest_level', 'conf_score', order_hlca, order_hlca, 'HLCA with Confidence Score Using Celltypist')
-  bubble_plot_count(hlca, 'majority_voting', 'ann_finest_level', 'conf_score', order_hlca, order_hlca, 'HLCA with Counts and Confidence Score Using Celltypist')
-  bubble_plot_score_v2(hlca, 'hlca_pred', 'hlca_true', 'score', order_hlca, order_hlca, 'HLCA Annotations with Confidence Score Using Celltypist (Ver 2)')
 }
 
 # hlca scarches
 {
   hlca <- read.csv('scArches/hlca/scarches_hlca.csv')
   bubble_prop(hlca, 'hlca_pred', 'hlca_true', order_hlca, order_hlca, 'HLCA Annotations by Proportion Using scArches')
-  bubble_plot_score(hlca, 'predicted_labels', 'true_label', 'conf_score', order_hlca, order_hlca, 'HLCA with Confidence Score Using scArches')
-  bubble_plot_count(hlca, 'predicted_labels', 'true_label', 'conf_score', order_hlca, order_hlca, 'HLCA with Counts and Confidence Score Using scArches')
-  bubble_plot_score_v2(hlca, 'hlca_pred', 'hlca_true', 'score', order_hlca, order_hlca, 'HLCA with Confidence Score Using scArches (Ver 2)')
 }
 
 # hlca fr match 
 {
-  hlca <- read.csv('miscellaneous/FR-Match_HLCA_cv.csv')
-  bubble_plot_score_v2(hlca, 'match', 'query.cluster', 'score', order_hlca, order_hlca, 'HLCA with Confidence Score Using FR-Match (Ver 2)')
+  hlca <- read.csv('miscellaneous/frmatch_hlca.csv')
+  bubble_prop(hlca, 'hlca_pred', 'hlca_true', order_hlca, order_hlca, 'HLCA Annotations by Proportion Using FR-Match')
 }
 
 
