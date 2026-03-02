@@ -37,8 +37,8 @@ cell types from new datasets to be integrated to the reference atlas while prese
 type memberships of existing cells, to support the incremental growth of the knowledgebase.
 
 ## Directory
-* `tutorials\`: contains code used in this study documented in tutorial notebooks.
-* `figures\`: contains scripts for all figures in the main manuscript.
+* `tutorials/`: contains code used in this study documented in tutorial notebooks.
+* `figures/`: contains scripts for all figures in the main manuscript.
 
 ## Citation
 * Preprint: https://pmc.ncbi.nlm.nih.gov/articles/PMC12190912/
