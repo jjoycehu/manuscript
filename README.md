@@ -26,7 +26,7 @@ the reliability and performance of cell type annotation approaches for single ce
 datasets.
 
 <div align="center">
-  <img width = "55%" src="https://github.com/jjoycehu/manuscript/blob/c725ea4890529c90b40517967aa9b52e12660dc1/figures/Figure1.png">
+  <img width = "55%" src="https://github.com/jjoycehu/manuscript/blob/c725ea4890529c90b40517967aa9b52e12660dc1/figures/Figure1_R2.pdf">
 </div>
 
 **Figure 1: Study Overview**  
