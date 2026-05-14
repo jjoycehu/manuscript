@@ -11,11 +11,11 @@ Saved results for the post-analysis figures are in the `data/` folder.
 
 Figures directly from analysis pipelines are followed in the tutorials.
 
-* Follow `tutorials/FR-Match_tutorial.R` for Figures 6A, 8, 10A.
-* Follow `tutorials/CellHint_tutorial.ipynb` for Figures 6C, 10C.
-* Follow `figures/plot_cellhint_matches.R` for Figures 6B, 10B.
+* Follow `tutorials/FR-Match_tutorial.R` for Figures 6A, 8, 9A.
+* Follow `tutorials/CellHint_tutorial.ipynb` for Figures 6C, 9C.
+* Follow `figures/plot_cellhint_matches.R` for Figures 6B, 9B.
 
 Non-plotting figures:
 * Figure 1 for illustartion
 * See Supplementary Table 2 for Figure 7
-* Figure 9 for illustration
+
