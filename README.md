@@ -15,7 +15,7 @@ cell types from new datasets to be integrated to the reference atlas while prese
 type memberships of existing cells, to support the incremental growth of the knowledgebase.
 
 ## Directory
-* `Supplementary results/`: contains supplementary results for the study.
+* `Supplementary_results/`: contains supplementary results for the study.
 * `tutorials/`: contains code used in this study documented in tutorial notebooks.
 * `figures/`: contains scripts for all figures in the main manuscript.
 
