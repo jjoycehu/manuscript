@@ -1,13 +1,13 @@
 # Table of content
 Saved results for the post-analysis figures are in the `data/` folder.
 
-* `hlca cell accuracy barplot-R2.ipynb`: Figure 2A,C
-* `hlca_ROC_wfunctions_R1.R`: Figure 2D
-* `hlca_metrics-R1.ipynb`: Figure 2B
-* `cellref agreenebt okits-R2.ipynb`: Figure 3A,B,C
-* `cellref cell accuracy barplot-R2.ipynb`: Figure 3D
-* `CellRef-HLCA-predictions.ipynb`: Figure 4
-* `bubbleplot_v2_clean.R`: Figure 5
+* `hlca_cell_accuracy_barplot_clean.ipynb`: Figure 2A,C
+* `hlca_ROC_wfunctions_clean.R`: Figure 2D
+* `hlca_metrics_clean.ipynb`: Figure 2B
+* `cellref_agreement_plots_clean.ipynb`: Figure 3A,B,C
+* `cellref_cell_accuracy_barplot_clean.ipynb`: Figure 3D
+* `CellRef-HLCA-predictions_clean.ipynb`: Figure 4
+* `bubbleplot_clean.R`: Figure 5
 
 Figures directly from analysis pipelines are followed in the tutorials.
 
